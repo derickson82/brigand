@@ -1,4 +1,4 @@
-<project name="dungeon" basedir=".." default="build">
+<project name="brigand" basedir=".." default="build">
 
   <!-- loads the build.properties file -->
   <property file="ant/build.properties" />
