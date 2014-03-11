@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'dungeon.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+  testCompile "org.testng:testng:6.8.8"
+}
+
+test {
+  useTestNG()
+}
